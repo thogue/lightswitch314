@@ -32,13 +32,13 @@ Diagram w/ powering remote via rpi.
 Remove the battery from the remote. 
 
 
-  	a.(1 per button)
-	
-                                                                                   _/ -E-- > 5V rPi
-                                              _/-C-- > [1kohm R2]-- >Base PNP2907 <_
-   rPi i/o out --[1kohm R1]-- > Base NPN2222< _                                     \ -C--|-- > input on remote
-                                               \-E-- > Ground rPi < ------[100k ohm R3]---|
+	  	a.(1 per button)
+		
+    	                                                                               _/ -E-- > 5V rPi
+      	                                        _/-C-- > [1kohm R2]-- >Base PNP2907 <_
+  	 rPi i/o out --[1kohm R1]-- > Base NPN2222< _                                     \ -C--|-- > input on remote
+                                                 \-E-- > Ground rPi < ------[100k ohm R3]---|
 
-	 b.
-	 -Remote -- > Ground rPi
-	 5v rPi -- > +Remote
+		 b.
+		 -Remote -- > Ground rPi
+		 5v rPi -- > +Remote
