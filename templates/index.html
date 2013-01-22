@@ -1,0 +1,48 @@
+<!DOCTYPE html><!--
+	  This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/> -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>LightSwitch314</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="thogue">
+ 
+    <link href="{{ url_for('static', filename="bootstrap/css/bootstrap.min.css") }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename="bootstrap/css/bootstrap-responsive.min.css") }}" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; 
+      }
+		</style> 
+</head>
+ 
+<body><center>
+
+<h1 style="margin-top:-40px;">Lightswitch<small>314</small><h1>
+<div class="container-fluid">
+	<div class="well">
+		<div class="btn-group" style="height:2m !important; padding:5px; width:100%;">
+			<a href="/switchone"><button class="btn-large btn-success" style="height:2em !important; padding:5px; width:80%;"><i class="icon-off icon-white"></i> 1</button></a>
+		</div><br><br>
+		<div class="btn-group" style="height:2m !important; padding:5px; width:100%;">
+			<a href="/switchtwo"><button class="btn-large btn-success" style="height:2em !important; padding:5px; width:80%;"><i class="icon-off icon-white"></i> 2</button></a>
+		</div><br><br>	
+		<div class="btn-group" style="height:2m !important; padding:5px; width:100%;">
+			<a href="/switchthree"><button class="btn-large btn-success" style="height:2em !important; padding:5px; width:80%;"><i class="icon-off icon-white"></i> 3</button></a>
+		</div>
+	</div>
+</div>
+</body>
+</html>
