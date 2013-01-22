@@ -31,6 +31,8 @@ v0.1 : First push, hardware still on a breadboard. I assume the wiring and choic
 Diagram w/ powering remote via rpi. 
 Remove the battery from the remote. 
 
+<blockquote>
+
 a.(1 per button)
 
 																						   								   	  					 _/-E--> 5V rPi
@@ -41,4 +43,4 @@ rPi i/o out --[1kohm R1]--> Base NPN2222<   _	  										    				\-C--|--> inpu
 b.
 -Remote --> Ground rPi
 5v rPi --> +Remote
-
+</blockquote>
