@@ -31,16 +31,16 @@ v0.1 : First push, hardware still on a breadboard. I assume the wiring and choic
 Diagram w/ powering remote via rpi. 
 Remove the battery from the remote. 
 
-<blockquote>
+	<blockquote>
 
-a.(1 per button)
-
+	a.(1 per button)
+	
 																						   								   	  	  				 _/ -E-- > 5V rPi
-																				  	_/-C-- > [1kohm R2]-- >Base PNP2907 <_
-rPi i/o out --[1kohm R1]-- > Base NPN2222<  _	  										      				\ -C--|-- > input on remote
-																				  	 \-E-- > Ground rPi < ------[100k ohm R3]---|
+																					  	_/-C-- > [1kohm R2]-- >Base PNP2907 <_
+	rPi i/o out --[1kohm R1]-- > Base NPN2222<  _	  										      				\ -C--|-- > input on remote
+																					  	 \-E-- > Ground rPi < ------[100k ohm R3]---|
 
-b.
--Remote -- > Ground rPi
-5v rPi -- > +Remote
-</blockquote>
+	b.
+	-Remote -- > Ground rPi
+	5v rPi -- > +Remote
+	</blockquote>
