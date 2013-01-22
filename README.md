@@ -5,11 +5,11 @@ Lightswitch 314 v0.1 by Thogue
 A simple web application to control remote power switches. Powered by a Raspberry Pi, Flask, and Bootstrap. The goal being a simple, sleek, affordable home automation. 
 
 Requirements:
-	1. rPi
-	2. python + flask ( http://flask.pocoo.org/docs/installation/#installation )
-	3. bootstrap (included) ( http://twitter.github.com/bootstrap/ )
-	4. Cheap remote outlets. like: http://www.amazon.com/gp/product/B0064PKG3Q
-	5. 6x 1k ohm resistor, 3x 100k ohm resistor, 3x NPN Transistor, 3x PNP Transistor 
+    1. rPi
+    2. python + flask ( http://flask.pocoo.org/docs/installation/#installation )
+    3. bootstrap (included) ( http://twitter.github.com/bootstrap/ )
+    4. Cheap remote outlets. like: http://www.amazon.com/gp/product/B0064PKG3Q
+    5. 6x 1k ohm resistor, 3x 100k ohm resistor, 3x NPN Transistor, 3x PNP Transistor 
 
 This uses the flask built-in webserver which is only for development. Please see : http://flask.pocoo.org/docs/deploying/
 
